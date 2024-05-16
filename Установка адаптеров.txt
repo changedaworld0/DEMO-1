@@ -1,0 +1,26 @@
+-----------Центральный офис «Сеть 1 ЦО»-----------
+Net1-Admin	Новый адаптер -> Net1
+Net1-Open(BD)	Новый адаптер -> Net1
+Net1-OperCA	Новый адаптер -> Net1
+
+		NetAdapt1 -> Net1
+Net1-Coord	NetAdapt2 -> Net1
+		NetAdapt3 -> Inet
+		NetAdapt4 -> не меняем
+
+------------Офис филиал «Сеть 1 Филиал»-----------
+Net2-Client	Новый адаптер -> Net2
+
+		NetAdapt1 -> Net2
+Net2-Coord	NetAdapt2 -> Net2
+		NetAdapt3 -> Inet
+		NetAdapt4 -> не меняем
+
+-------------Офис сеть 2 «Сеть 2 Офис»------------
+Net3-Admin	Новый адаптер -> Net3
+Net3-Open	Новый адаптер -> Net3
+
+		NetAdapt1 -> Net3
+Net3-Coord	NetAdapt2 -> Net3
+		NetAdapt3 -> Inet
+		NetAdapt4 -> не меняем
